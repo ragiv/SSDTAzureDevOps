@@ -1,0 +1,85 @@
+07-07-2019 12:45:28	This log contains information about the import schema operation into project 'SSDTDevOps' on computer 'DESKTOP-HE74L16' by user 'Vijayashanthi'.
+07-07-2019 12:45:28	Import of database schema has started.
+07-07-2019 12:45:39	Gathering database credentials
+07-07-2019 12:45:39	Gathering database options
+07-07-2019 12:45:39	Gathering generic database scoped configuration option
+07-07-2019 12:45:39	Gathering users
+07-07-2019 12:45:39	Gathering roles
+07-07-2019 12:45:39	Gathering application roles
+07-07-2019 12:45:39	Gathering role memberships
+07-07-2019 12:45:39	Gathering filegroups
+07-07-2019 12:45:39	Gathering full-text catalogs
+07-07-2019 12:45:39	Gathering assemblies
+07-07-2019 12:45:39	Gathering certificates
+07-07-2019 12:45:39	Gathering asymmetric keys
+07-07-2019 12:45:39	Gathering symmetric keys
+07-07-2019 12:45:39	Gathering encrypted symmetric keys
+07-07-2019 12:45:39	Gathering schemas
+07-07-2019 12:45:39	Gathering XML schema collections
+07-07-2019 12:45:39	Gathering user-defined data types
+07-07-2019 12:45:39	Gathering user-defined types
+07-07-2019 12:45:39	Gathering table types
+07-07-2019 12:45:39	Gathering unique keys for table types
+07-07-2019 12:45:39	Gathering primary keys for table types
+07-07-2019 12:45:39	Gathering indexes for table types
+07-07-2019 12:45:39	Gathering check constraints for table types
+07-07-2019 12:45:39	Gathering default constraints for table types
+07-07-2019 12:45:39	Gathering partition functions
+07-07-2019 12:45:39	Gathering partition schemes
+07-07-2019 12:45:40	Gathering functions
+07-07-2019 12:45:40	Gathering encrypted functions
+07-07-2019 12:45:40	Gathering aggregates
+07-07-2019 12:45:40	Gathering procedures
+07-07-2019 12:45:40	Gathering encrypted procedures
+07-07-2019 12:45:40	Gathering tables
+07-07-2019 12:45:40	Gathering primary keys
+07-07-2019 12:45:40	Gathering unique constraints
+07-07-2019 12:45:40	Gathering foreign keys
+07-07-2019 12:45:40	Gathering default constraints
+07-07-2019 12:45:40	Gathering check constraints
+07-07-2019 12:45:40	Gathering views
+07-07-2019 12:45:40	Gathering encrypted views
+07-07-2019 12:45:40	Gathering indexes
+07-07-2019 12:45:40	Gathering statistics
+07-07-2019 12:45:40	Gathering full-text index stoplists
+07-07-2019 12:45:40	Gathering search property lists
+07-07-2019 12:45:40	Gathering search properties
+07-07-2019 12:45:40	Gathering full-text indexes
+07-07-2019 12:45:40	Gathering column store indexes
+07-07-2019 12:45:40	Gathering spatial indexes
+07-07-2019 12:45:40	Gathering XML indexes
+07-07-2019 12:45:40	Gathering Selective XML indexes
+07-07-2019 12:45:40	Gathering encrypted triggers
+07-07-2019 12:45:40	Gathering triggers
+07-07-2019 12:45:40	Gathering encrypted and clr ddl triggers
+07-07-2019 12:45:40	Gathering ddl triggers
+07-07-2019 12:45:40	Gathering synonyms
+07-07-2019 12:45:40	Gathering defaults
+07-07-2019 12:45:40	Gathering data constraint uddt bindings
+07-07-2019 12:45:40	Gathering rules
+07-07-2019 12:45:40	Gathering data constraint uddt bindings
+07-07-2019 12:45:40	Gathering message types
+07-07-2019 12:45:40	Gathering queues
+07-07-2019 12:45:40	Gathering contracts
+07-07-2019 12:45:40	Gathering services
+07-07-2019 12:45:40	Gathering event notifications
+07-07-2019 12:45:40	Gathering remote service bindings
+07-07-2019 12:45:40	Gathering broker priorities
+07-07-2019 12:45:40	Gathering signatures
+07-07-2019 12:45:40	Gathering data compression options
+07-07-2019 12:45:40	Gathering sequence types
+07-07-2019 12:45:40	Gathering security policies
+07-07-2019 12:45:40	Gather column encryption keys
+07-07-2019 12:45:40	Gathering column master keys
+07-07-2019 12:45:40	Gathering external data sources
+07-07-2019 12:45:40	Gathering external file formats
+07-07-2019 12:45:40	Gathering external tables
+07-07-2019 12:45:40	Gathering extended properties
+07-07-2019 12:45:40	Gathering credentials
+07-07-2019 12:45:40	Gathering logins
+07-07-2019 12:45:40	Gathering server audits
+07-07-2019 12:45:41	Scanning project for duplicate elements
+07-07-2019 12:45:41	Finished duplicate element processing
+07-07-2019 12:45:41	Finished importing database.
+07-07-2019 12:45:41	A summary of the import was saved to the following location: C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\Import Schema Logs\SSDTDevOps_20190707071528.log
+07-07-2019 12:45:41	Click Finish to continue...

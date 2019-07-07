@@ -1,0 +1,10 @@
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\bin\Debug\SSDTDevOps.dacpac
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\bin\Debug\SSDTDevOps.dll
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\bin\Debug\SSDTDevOps.pdb
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\SSDTDevOps.sqlprojAssemblyReference.cache
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\Model.xml
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\refactor.xml
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\postdeploy.sql
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\predeploy.sql
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\SSDTDevOps.dll
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Debug\SSDTDevOps.pdb

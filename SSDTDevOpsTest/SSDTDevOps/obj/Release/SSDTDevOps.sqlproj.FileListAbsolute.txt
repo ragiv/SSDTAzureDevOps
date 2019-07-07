@@ -1,0 +1,9 @@
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\bin\Release\SSDTDevOps.dacpac
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\bin\Release\SSDTDevOps.dll
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\bin\Release\SSDTDevOps.pdb
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Release\Model.xml
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Release\refactor.xml
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Release\postdeploy.sql
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Release\predeploy.sql
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Release\SSDTDevOps.dll
+C:\Veera\SSDTDevOps\SSDTDevOpsTest\SSDTDevOps\obj\Release\SSDTDevOps.pdb
