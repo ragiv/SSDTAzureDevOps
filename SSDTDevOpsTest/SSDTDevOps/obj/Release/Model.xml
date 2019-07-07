@@ -44,6 +44,25 @@
 				</Entry>
 			</Relationship>
 		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[TestDeploy].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[TestDeploy]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+		</Element>
 		<Element Type="SqlTable" Name="[dbo].[DimDate_SSRS]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
@@ -4103,7 +4122,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Appointment$0]">
 			<Property Name="FillFactor" Value="99" />
@@ -4123,7 +4142,7 @@
 					<References Name="[dbo].[EPM$Appointment]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="3" />
+			<AttachedAnnotation Disambiguator="4" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Change Log Entry]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -4430,7 +4449,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Change Log Entry$0]">
 			<Property Name="FillFactor" Value="99" />
@@ -4450,7 +4469,7 @@
 					<References Name="[dbo].[EPM$Change Log Entry]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="4" />
+			<AttachedAnnotation Disambiguator="5" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Customer]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -8150,7 +8169,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Customer$0]">
 			<Property Name="FillFactor" Value="99" />
@@ -8170,7 +8189,7 @@
 					<References Name="[dbo].[EPM$Customer]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="5" />
+			<AttachedAnnotation Disambiguator="6" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Dictionary by Territory]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -8397,7 +8416,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="7" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Dictionary by Territory$0]">
 			<Property Name="FillFactor" Value="99" />
@@ -8453,7 +8472,7 @@
 					<References Name="[dbo].[EPM$Dictionary by Territory]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="6" />
+			<AttachedAnnotation Disambiguator="7" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Pay Detail Line]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -9667,7 +9686,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="7" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Pay Detail Line$0]">
 			<Property Name="FillFactor" Value="97" />
@@ -9696,7 +9715,7 @@
 					<References Name="[dbo].[EPM$Pay Detail Line]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="7" />
+			<AttachedAnnotation Disambiguator="8" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Pay Element]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -10307,7 +10326,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="9" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Pay Element$0]">
 			<Property Name="FillFactor" Value="96" />
@@ -10327,7 +10346,7 @@
 					<References Name="[dbo].[EPM$Pay Element]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="8" />
+			<AttachedAnnotation Disambiguator="9" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Payroll Archive]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -12096,7 +12115,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="9" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="10" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Payroll Archive$0]">
 			<Property Name="FillFactor" Value="99" />
@@ -12116,7 +12135,7 @@
 					<References Name="[dbo].[EPM$Payroll Archive]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="9" />
+			<AttachedAnnotation Disambiguator="10" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Payroll Employee]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -14047,7 +14066,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="10" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="11" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Payroll Employee$0]">
 			<Property Name="FillFactor" Value="99" />
@@ -14067,7 +14086,7 @@
 					<References Name="[dbo].[EPM$Payroll Employee]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="10" />
+			<AttachedAnnotation Disambiguator="11" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$Pension Scheme]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -15296,7 +15315,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="11" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="12" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$Pension Scheme$0]">
 			<Property Name="FillFactor" Value="98" />
@@ -15316,7 +15335,7 @@
 					<References Name="[dbo].[EPM$Pension Scheme]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="11" />
+			<AttachedAnnotation Disambiguator="12" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EPM$School Employee]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -18315,7 +18334,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="12" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="13" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[EPM$School Employee$0]">
 			<Property Name="FillFactor" Value="97" />
@@ -18344,7 +18363,7 @@
 					<References Name="[dbo].[EPM$School Employee]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="12" />
+			<AttachedAnnotation Disambiguator="13" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Filters]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -34649,6 +34668,33 @@ Print('Placeholder 6')
 				<Property Name="StartColumn" Value="1" />
 				<Property Name="HeaderContents" Value="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;CREATE PROCEDURE [dbo].[SSRS_PENSION_FUNDS_V2] (@Pensions Varchar(4)&#xD;&#xA;                                       ,@TAXYEAR int &#xD;&#xA;                                       ,@PERIOD int &#xD;&#xA;                                       ,@DfES Varchar(10)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@School Varchar(10) &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@PensionCode Varchar(30)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@All Varchar(1)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@NewStarters varchar(1)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@Leavers varchar(1)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@changes varchar(1)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@Customertype varchar(100)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@OriginalAppointment Varchar(10) = null&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   ,@Template VarChar(255)-- = 'Norfolk Pension Fund - Joiners'&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   )&#xD;&#xA;&#xD;&#xA;AS" />
 			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[TestDeploy]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[TestDeploy].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="3" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
 		</Element>
 	</Model>
 </DataSchemaModel>
